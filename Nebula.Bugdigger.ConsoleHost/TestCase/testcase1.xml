@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Config>
+	<UseCases>
+		<UseCase id="CT-StoreListManage_DTELoad-xx-FN-001">
+			<TestStep>
+				<Name>Send_Pos1</Name>
+				<Operate>Send</Operate>
+				<Param BusType="422" NetNo="0" SrcChannel1="3" SrcChannel2="0" DesChannel1="3" DesChannel2="0" Data="0x0000000000000000000000000000000000000000"/>
+				<Delay>1000</Delay>
+				<Remark>发送1号挂点信息</Remark>
+				<ICD />
+			</TestStep>
+			<TestStep>
+				<Name>Send_Pos2</Name>
+				<Operate>Send</Operate>
+				<Param BusType="422" NetNo="0" SrcChannel1="3" SrcChannel2="0" DesChannel1="3" DesChannel2="0" Data="0x0000016800000024000000240000002400000024"/>
+				<Delay>1000</Delay>
+				<Remark>发送2号挂点信息</Remark>
+				<ICD />
+			</TestStep>
+			<TestStep>
+				<Name>Send_Pos3</Name>
+				<Operate>Send</Operate>
+				<Param BusType="422" NetNo="0" SrcChannel1="3" SrcChannel2="0" DesChannel1="3" DesChannel2="0" Data="0x000002D000000048000000480000004800000048"/>
+				<Delay>1000</Delay>
+				<Remark>发送3号挂点信息</Remark>
+				<ICD />
+			</TestStep>
+			<TestStep>
+				<Name>Recive1</Name>
+				<Operate>Recv</Operate>
+				<Param BusType="422" NetNo="0" SrcChannel1="2" SrcChannel2="0" DesChannel1="2" DesChannel2="0" Data="0x000002D000000048000000480000004800000048"/>
+				<Delay>5000</Delay>
+				<Remark>获取挂点状态</Remark>
+				<ICD>
+					<Field>
+						<Name>SAM01.s.STATUS</Name>
+						<Param StartByte="2" StartBit="0" Length="7"/>
+						<Remark>判断5号挂点状态码是否正确</Remark>
+					</Field>	
+					<Field>
+						<Name>SAM07.s.STATUS</Name>
+						<Param StartByte="3" StartBit="0" Length="7"/>
+						<Remark>判断6号挂点状态码是否正确</Remark>
+					</Field>
+				</ICD>
+			</TestStep>
+			<TestStep>
+				<Name>Recive2</Name>
+				<Operate>Recv</Operate>
+				<Param BusType="422" NetNo="0" SrcChannel1="2" SrcChannel2="0" DesChannel1="2" DesChannel2="0" Data="0x0000016800000024000000240000002400000024"/>
+				<Delay>5000</Delay>
+				<Remark>获取挂点状态</Remark>
+				<ICD>
+					<Field>
+						<Name>SAM01.s.STATUS</Name>
+						<Param StartByte="2" StartBit="0" Length="7"/>
+						<Remark>判断7号挂点状态码是否正确</Remark>
+					</Field>	
+					<Field>
+						<Name>SAM07.s.STATUS</Name>
+						<Param StartByte="3" StartBit="0" Length="7"/>
+						<Remark>判断8号挂点状态码是否正确</Remark>
+					</Field>
+				</ICD>
+			</TestStep>
+		</UseCase>
+	</UseCases>
+</Config>

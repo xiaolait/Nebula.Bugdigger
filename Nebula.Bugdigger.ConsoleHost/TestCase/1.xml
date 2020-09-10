@@ -1,0 +1,41 @@
+<Project ID="8888299328">
+	<ProjName>7s7dsa</ProjName>
+	<SoftwareName/>
+	<SoftwarePath/>
+	<Version/>
+	<Creater/>
+	<CreateTime/>
+	<PlaneType/>
+	<Testflow name="航路点">
+		<step Index="0">
+		<xmlPath/>
+		<xmlname>testcase1.xml</xmlname>
+		<delaytime>0</delaytime>
+		<exectimes>1</exectimes>
+		</step>
+		
+		<step Index="1">
+		<xmlPath/>
+		<xmlname>testcase2.xml</xmlname>
+		<delaytime>0</delaytime>
+		<exectimes>1</exectimes>
+		</step>
+
+	</Testflow>
+	<Testflow name="顺序">
+		<step Index="0">
+		<xmlPath/>
+		<xmlname>testcase3.xml</xmlname>
+		<delaytime>0</delaytime>
+		<exectimes>1</exectimes>
+		</step>
+		
+		<step Index="1">
+		<xmlPath/>
+		<xmlname>testcase4.xml</xmlname>
+		<delaytime>0</delaytime>
+		<exectimes>1</exectimes>
+		</step>
+
+	</Testflow>
+</Project>
