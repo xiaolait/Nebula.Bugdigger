@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nebula.Bugdigger.Application.Contracts", "Nebula.Bugdigger.Application.Contracts\Nebula.Bugdigger.Application.Contracts.csproj", "{1C7890CC-15A7-4CF8-9FC0-AEFA7CAA993D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nebula.Bugdigger.Application", "Nebula.Bugdigger.Application\Nebula.Bugdigger.Application.csproj", "{E5EB5B19-4D25-44D4-AD67-1E178F7499B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nebula.Bugdigger.ConsoleHost", "Nebula.Bugdigger.ConsoleHost\Nebula.Bugdigger.ConsoleHost.csproj", "{F82D0EFA-FC96-4ECA-882A-D845A2D62555}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nebula.Bugdigger.ApiHost", "Nebula.Bugdigger.ApiHost\Nebula.Bugdigger.ApiHost.csproj", "{576577E0-A6B2-4D0C-BE84-F452B43F3E96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C7890CC-15A7-4CF8-9FC0-AEFA7CAA993D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C7890CC-15A7-4CF8-9FC0-AEFA7CAA993D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C7890CC-15A7-4CF8-9FC0-AEFA7CAA993D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C7890CC-15A7-4CF8-9FC0-AEFA7CAA993D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5EB5B19-4D25-44D4-AD67-1E178F7499B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5EB5B19-4D25-44D4-AD67-1E178F7499B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5EB5B19-4D25-44D4-AD67-1E178F7499B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5EB5B19-4D25-44D4-AD67-1E178F7499B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F82D0EFA-FC96-4ECA-882A-D845A2D62555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F82D0EFA-FC96-4ECA-882A-D845A2D62555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F82D0EFA-FC96-4ECA-882A-D845A2D62555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F82D0EFA-FC96-4ECA-882A-D845A2D62555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{576577E0-A6B2-4D0C-BE84-F452B43F3E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{576577E0-A6B2-4D0C-BE84-F452B43F3E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{576577E0-A6B2-4D0C-BE84-F452B43F3E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{576577E0-A6B2-4D0C-BE84-F452B43F3E96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
