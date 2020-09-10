@@ -1,0 +1,11 @@
+.vs/
+Nebula.Bugdigger.ApiHost/bin/
+Nebula.Bugdigger.ApiHost/obj/
+Nebula.Bugdigger.Application/bin/
+Nebula.Bugdigger.Application/obj/
+Nebula.Bugdigger.ConsoleHost/bin/
+Nebula.Bugdigger.ConsoleHost/obj/
+Nebula.Bugdigger.Application.Contracts/bin/
+Nebula.Bugdigger.Application.Contracts/obj/
+.vscode/
+.DS_Store
